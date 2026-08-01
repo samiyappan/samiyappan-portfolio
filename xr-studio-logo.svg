@@ -1,0 +1,27 @@
+<svg width="720" height="360" viewBox="0 0 720 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="strokeGlow" x1="120" y1="60" x2="420" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="textGlow" x1="110" y1="210" x2="600" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#BFC7D5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="720" height="360" rx="28" fill="#0D1117"/>
+
+  <g opacity="0.95">
+    <path d="M170 78L216 52L262 78L262 130L216 156L170 130V78Z" stroke="url(#strokeGlow)" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M216 80L240 104L216 128L192 104L216 80Z" fill="#00E5FF" fill-opacity="0.18" stroke="#00E5FF" stroke-width="3"/>
+    <path d="M198 145L232 92" stroke="#00E5FF" stroke-width="5" stroke-linecap="round"/>
+    <path d="M232 145L198 92" stroke="#8B5CF6" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="216" cy="118" r="8" fill="#FFFFFF"/>
+  </g>
+
+  <g>
+    <text x="112" y="225" fill="url(#textGlow)" font-family="Orbitron, Space Grotesk, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="6">XR STUDIO</text>
+    <text x="112" y="270" fill="#BFC7D5" font-family="Space Grotesk, Arial, sans-serif" font-size="18" font-weight="500" letter-spacing="4">INDUSTRIAL SIMULATION • ENTERPRISE XR</text>
+  </g>
+</svg>
